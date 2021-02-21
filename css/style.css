@@ -1,0 +1,51 @@
+/* Styling the body*/
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+/* Styling the header tag*/
+header {
+    background-color: #333333;
+}
+
+/*Adding style attributes to h1 tag*/
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+}
+/*Adding style attributest to the h2 tag*/
+h2 {
+    font-size: 24px;
+}
+/* Adding styling to the div container using it sclass name*/
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+/* Styling the main bio section */
+#main-bio {
+    float: left;
+    width: 70%;
+} 
+/* Styling the contact info section */
+#contact-info {
+    float: left;
+    width: 30%;
+    line-height: 1.5;
+    
+}
+/* Styling the img */
+#bio-image {
+    float: left;
+    margin: 10px;
+}
+/* Change colour of links on the a tag */
+#contact-info a {
+    color: #d21034;
+}
